@@ -1,3 +1,9 @@
+# Dolphin_web
+3rd party
+
+# ninja
+bin/ninja.exe
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
