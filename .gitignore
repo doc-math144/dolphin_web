@@ -1,5 +1,7 @@
 # Dolphin_web
-3rd party
+3rd party/emsdk
+3rd party/dolphin
+3rd party/emscripten
 
 # ninja
 bin/ninja.exe

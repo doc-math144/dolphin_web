@@ -1,0 +1,9 @@
+[submodule "3rd party/emsdk"]
+	path = 3rd party/emsdk
+	url = https://github.com/emscripten-core/emsdk.git
+[submodule "3rd party/dolphin"]
+	path = 3rd party/dolphin
+	url = https://github.com/dolphin-emu/dolphin.git
+[submodule "3rd party/emscripten"]
+	path = 3rd party/emscripten
+	url = https://github.com/emscripten-core/emscripten.git
