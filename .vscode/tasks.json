@@ -1,0 +1,83 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npm install",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/3rd_party"
+			},
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm outdated",
+			"command": "npm",
+			"args": [
+				"outdated"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/3rd_party"
+			},
+			"presentation": {
+				"reveal": "always"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm update",
+			"command": "npm",
+			"args": [
+				"update"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/3rd_party"
+			},
+			"presentation": {
+				"reveal": "always"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "emcmake cmake",
+			"command": "emcmake",
+			"args": [
+				"cmake",
+				"-G",
+				"Ninja",
+				".."
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/build"
+			},
+			"presentation": {
+				"reveal": "always"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "Run tests",
+			"command": "npm",
+			"args": [
+				"test"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		}
+	]
+}

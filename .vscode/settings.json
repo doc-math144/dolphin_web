@@ -1,0 +1,21 @@
+{
+  "extensions.webWorker": "auto",
+  "workbench.editor.defaultBinaryEditor": "vscode.markdown.preview.editor",
+  "cmake.configureArgs": [
+    "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\docma\\test_dolphin_web\\dolphin_web\\3rd party\\emscripten\\cmake\\Modules\\Platform\\Emscripten.cmake"
+  ],
+  "cmake.preferredGenerators": [
+    "Ninja"
+  ],
+  "C_Cpp.default.mergeConfigurations": true,
+  "dev.containers.dockerPath": "docker",
+  "dev.containers.runArgs": ["--userns=keep-id"],
+  "dev.containers.containerEnv": {
+    "HOME": "/home/node"
+  },
+  "python.testing.pytestArgs": [
+    "."
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}

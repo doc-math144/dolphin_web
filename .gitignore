@@ -2,6 +2,7 @@
 3rd party/emsdk
 3rd party/dolphin
 3rd party/emscripten
+3rd party/docker
 
 # ninja
 bin/ninja.exe
